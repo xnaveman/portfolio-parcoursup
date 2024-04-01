@@ -264,3 +264,61 @@ h1{
 .carbonbadge{
     margin-top: 5vh;
 }
+
+/* Responsive full screen */
+
+@media screen and (min-width: 2560px) {
+
+    h1 {
+        font-size: 4rem;
+    }
+    header nav a{
+        font-size: 4rem;
+        margin-right: 1vw;
+    }
+    .spawn h1 {
+        font-size: 6em;
+    }
+    .photoheader img {
+        width: 190px;
+    }
+    .photoheader {
+        width: 190px;
+        height: 190px;
+    }
+    header {
+        height: 13vh;
+    }
+    .photoheader {
+        margin-bottom: 0.4vh;
+    }
+    .spawncontent {
+        font-size: 4.5rem;
+    }
+    .presentationtitle {
+        font-size: 3.5rem;
+    }
+    .presentationcontent {
+        font-size: 2.2rem;
+    }
+    .cardtitle{
+        font-size: 2.2rem;
+    }
+    .cardcontent{
+        font-size: 2.1rem;
+    }
+    .orbtext{
+        font-size: 2rem;
+    }
+    .othersoftwares b {
+        font-size: 2.1rem;
+    }
+    .othersoftwares ul {
+        font-size: 2.5rem;
+    }
+    .links img {
+        width: 100px;
+        height: 100px;
+    }
+    
+}
