@@ -26,7 +26,7 @@ var fixedText = document.getElementById("fixedText");
         if (currentScrollPosition >= window.innerHeight * 0.1) {
           moveFixedText(2, 1);
         } else if (currentScrollPosition < lastScrollPosition) {
-          moveFixedText(20, 1);
+          moveFixedText(15, 1);
         }
         lastScrollPosition = currentScrollPosition;
     }
